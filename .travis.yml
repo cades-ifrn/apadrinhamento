@@ -16,5 +16,6 @@ deploy:
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   local-dir: public
+  fqdn: apadrinhamento.cades.natal.br
   on:
     branch: master
