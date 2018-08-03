@@ -1,12 +1,40 @@
 import React from 'react'
-import Link from 'gatsby-link'
+
+import Wrapper from '../components/Wrapper'
+import Header from '../components/Header'
+import BannerArea from '../components/BannerArea'
+
+import FeaturedArea from '../components/FeaturedArea'
+import ServiceArea from '../components/ServiceArea'
+
+import AmazingWorksArea from '../components/AmazingWorksArea'
+
+import StoryArea from '../components/StoryArea'
+import SubscriptionArea from '../components/SubscriptionArea'
+
+import FooterArea from '../components/FooterArea'
+import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Wrapper isFirst>
+      <Header />
+
+      <BannerArea />
+      <FeaturedArea />
+      <ServiceArea />
+    </Wrapper>
+
+    <Wrapper>
+      <AmazingWorksArea />
+    </Wrapper>
+    
+    <Wrapper>
+      <StoryArea />
+      <SubscriptionArea />
+      <FooterArea />
+      <Footer />
+    </Wrapper>
   </div>
 )
 
