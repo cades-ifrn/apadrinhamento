@@ -21,7 +21,7 @@ const StoryArea = () => {
                 passem pelas dificuldades que você passou sozinho.
               </p>
               <a
-                href=""
+                href="https://github.com/cades-ifrn/apadrinhamento/blob/master/VOLUNTEER.md"
                 className="primary-btn hover d-inline-flex align-items-center"
               >
                 <span className="mr-10">Quero ser voluntário</span>
