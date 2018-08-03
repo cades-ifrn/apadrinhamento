@@ -1,22 +1,38 @@
 import React from 'react'
 
+import logo from '../assets/img/logo.png'
+
 const Footer = () => {
   return (
     <footer>
-        <div className="container">
-            <div className="footer-content d-flex justify-content-between align-items-center flex-wrap">
-                <div className="logo">
-                    <img src="img/logo.png" alt="" />
-                </div>
-                <div className="copy-right-text">Copyright &copy; 2017  |  All rights reserved to Dinomuz inc. This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
-                <div className="footer-social">
-                    <a href="#"><i className="fa fa-facebook"></i></a>
-                    <a href="#"><i className="fa fa-twitter"></i></a>
-                    <a href="#"><i className="fa fa-dribbble"></i></a>
-                    <a href="#"><i className="fa fa-behance"></i></a>
-                </div>
-            </div>
+      <div className="container">
+        <div className="footer-content d-flex justify-content-between align-items-center flex-wrap">
+          <div className="logo">
+            <img src={logo} alt="" />
+          </div>
+          <div className="copy-right-text">
+            Copyright &copy; 2018 | Célula Acadêmica de Desenvolvimento de
+            Software. Layout por{' '}
+            <a href="https://colorlib.com" target="_blank">
+              Colorlib
+            </a>
+          </div>
+          <div className="footer-social">
+            <a href="https://www.facebook.com/cadesifrn/">
+              <i className="fa fa-facebook" />
+            </a>
+            <a href="https://github.com/cades-ifrn">
+              <i className="fa fa-github" />
+            </a>
+            <a href="https://bit.ly/cades-slack">
+              <i className="fa fa-slack" />
+            </a>
+            <a href="https://bit.ly/cades-wpp">
+              <i className="fa fa-whatsapp" />
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
   )
 }

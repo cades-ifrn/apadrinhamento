@@ -2153,7 +2153,7 @@ body:after {
 }
 
 .single-service .thumb {
-  height: 10rem;
+  height: 15rem;
   width: 100%;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -2283,7 +2283,7 @@ body:after {
   right: 0;
   width: 50%;
   height: 100%;
-  background: url(../img/story-bg.jpg) no-repeat center center/cover;
+  background: url(../img/story-bg.jpeg) no-repeat center center/cover;
   z-index: 1;
 }
 

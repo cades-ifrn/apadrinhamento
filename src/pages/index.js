@@ -26,13 +26,9 @@ const IndexPage = () => (
     </Wrapper>
 
     <Wrapper>
-      <AmazingWorksArea />
-    </Wrapper>
-    
-    <Wrapper>
-      <StoryArea />
       <SubscriptionArea />
-      <FooterArea />
+      <StoryArea />
+      {/* <FooterArea /> */}
       <Footer />
     </Wrapper>
   </div>
