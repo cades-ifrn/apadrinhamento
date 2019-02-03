@@ -20,7 +20,7 @@ Adicione suas informações no mesmo formato.
 
 * `name`: Seu nome
 * `link`: Um link para te conhecer como, por exemplo, Facebook ou Twitter
-* `image`: Um link para uma foto sua
+* `image`: Um link para uma foto sua (não utilize links do Facebook, faça o upload no https://imgur.com/)
 * `description`: Um breve mensagem do que você espera
 * `availability`: `true` se você está disponível para apadrinhar novos calouros
 
