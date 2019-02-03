@@ -15,10 +15,15 @@ volunteers.sort((a, b) => {
   return 0
 })
 
-const ServiceItem = ({ image, title, description, link }) => (
+const getServiceItemStyle = (image, isAvailable) => ({
+  background: `url(${image})`,
+  filter: `grayscale(${isAvailable ? 0 : 100}%)`,
+})
+
+const ServiceItem = ({ image, title, description, link, isAvailable }) => (
   <div className="col-lg-3 col-sm-6">
     <div className="single-service">
-      <div className="thumb" style={{ background: `url(${image})` }}>
+      <div className="thumb" style={getServiceItemStyle(image, isAvailable)}>
         <div className="overlay overlay-content d-flex justify-content-center align-items-center">
           <a
             href={link}
@@ -31,7 +36,17 @@ const ServiceItem = ({ image, title, description, link }) => (
         </div>
       </div>
       <div className="desc">
-        <h6 className="text-uppercase text-white">{title}</h6>
+        <h6 className="text-uppercase text-white">
+          {title}
+          {!isAvailable && (
+            <small
+              style={{ color: '#ccc', fontSize: '0.8em', marginLeft: 'auto' }}
+            >
+              {' '}
+              <span className="lnr lnr-flag" /> Indisponível
+            </small>
+          )}
+        </h6>
         <p className="text-white">{description}</p>
       </div>
     </div>
@@ -60,6 +75,7 @@ const ServiceArea = () => {
               description={v.description}
               image={v.image}
               link={v.link}
+              isAvailable={v.availability}
             />
           ))}
         </div>
