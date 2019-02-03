@@ -107,5 +107,13 @@
     "image": "https://i.imgur.com/oLPMFcj.jpg",
     "description":
       "\"Às vezes a melhor maneira de resolver um de seus problemas é ajudar outra pessoa.\" - Tio Iroh, Avatar"
+  },
+  {
+    "name": "Luis Felipe",
+    "availability": true,
+    "link": "https://www.facebook.com/luis.felipe.5872",
+    "image": "https://i.imgur.com/Qej1oXf.jpg",
+    "description":
+      "Quero ajudar os calouros durante a sua trajetória pelo curso, aconselhando-os sobre o que seja necessário para tornar essa experiência em TADS ótima."
   }
 ]
