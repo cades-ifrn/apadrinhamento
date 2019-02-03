@@ -22,6 +22,7 @@ Adicione suas informações no mesmo formato.
 * `link`: Um link para te conhecer como, por exemplo, Facebook ou Twitter
 * `image`: Um link para uma foto sua
 * `description`: Um breve mensagem do que você espera
+* `availability`: `true` se você está disponível para apadrinhar novos calouros
 
 E marque a opção que contém "Create a new branch for this commit and start a pull request".
 
