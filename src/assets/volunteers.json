@@ -40,10 +40,10 @@
   },
   {
     "name": "Yves Cabral",
-    "availability": true,
+    "availability": false,
     "link": "https://fb.me/yvescabral",
     "image": "https://avatars3.githubusercontent.com/u/3816749",
-    "description": "Só quero ajudar"
+    "description": "Só quero ajudar."
   },
   {
     "name": "Ana Beatriz",
