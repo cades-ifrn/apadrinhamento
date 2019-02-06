@@ -123,5 +123,13 @@
     "image": "https://i.imgur.com/oT18Bra.jpg",
     "description":
       "Ajudar os calouros da mesma maneira que fui ajudado quando cheguei ao curso."
+  },
+  {
+    "name": "Breno Pereira Alves",
+    "availability": true,
+    "link": "https://www.facebook.com/breno550",
+    "image": "https://avatars1.githubusercontent.com/u/39974954?s=400&u=bd5dc6be8a8d91f07d32a09988529e7df4a3cf6e&v=4",
+    "description":
+      "Quero ajudar"
   }
 ]
